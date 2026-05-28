@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript</title>
+        <style>
+        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cosmo/bootstrap.min.css" integrity="sha384-5QFXyVb+lrCzdN228VS3HmzpiE7ZVwLQtkt+0d9W43LQMzz4HBnnqvVxKg6O+04d" crossorigin="anonymous">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <!-- FORMULARIO -->
+                <div class="col-4">
+                    <h2>Lista de Vehiculos</h2><hr>
+                    <form id="frm">
+                        <div class="form-group">
+                            <label for="txtMarca">Marca:</label>
+                            <input type="text" id="txtMarca" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="txtModelo">Modelo:</label>
+                            <input type="text" id="txtModelo" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="txtColor">Color:</label>
+                            <input type="text" id="txtColor" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="txtEstilo">Estilo:</label>
+                            <input type="text" id="txtEstilo" class="form-control">
+                        </div>
+                        
+                        <button type="submit" id="btnGuardar" class="btn btn-primary">Guardar</button>
+                        <button type="button" id="btnLimpiar" class="btn btn-secondary" onclick="limpiar()">Limpiar</button>
+                    </form>
+                </div>
+
+                <!-- LISTA -->
+                <div class="col-8">
+                    <table id="tblVehiculos" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Marca</th>
+                                <th>Modelo</th>
+                                <th>Color</th>
+                                <th>Estilo</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>    
+
+
+
+
+
+
+        </div>
+
+        <br><br><br><br><br><br><br><br><br><br>
+
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-firestore.js"></script>
+        <script src="firebase-config.js"></script> 
+        <script src="Lab4.js"></script>
+    
+    </body>
+</html>

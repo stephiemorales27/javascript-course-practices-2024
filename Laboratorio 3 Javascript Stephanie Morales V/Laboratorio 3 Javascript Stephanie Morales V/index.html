@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Laboratorio 3</title>
+        <style>
+        </style>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cosmo/bootstrap.min.css" integrity="sha384-5QFXyVb+lrCzdN228VS3HmzpiE7ZVwLQtkt+0d9W43LQMzz4HBnnqvVxKg6O+04d" crossorigin="anonymous">
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <!-- FORMULARIO -->
+                <div class="col-4">
+                    <h2>Lista de Vehiculos</h2>
+                    <form id="frm">
+                        <div class="form-group">
+                            <label for="txtMarca">Marca:</label>
+                            <input type="text" id="txtMarca" class="form-control">
+                        </div> 
+                        <div class="form-group">
+                            <label for="txtModelo">Modelo:</label>
+                            <input type="text" id="txtModelo" class="form-control">
+                          </div> 
+                          <div class="form-group">
+                            <label for="txtColor">Color:</label>
+                            <input type="text" id="txtColor" class="form-control">
+                          </div> 
+                          <div class="form-group">
+                            <label for="txtEstilo">Estilo:</label>
+                            <input type="text" id="txtEstilo" class="form-control">
+                          </div> 
+
+                          <button type="button" id="btnGuardar" class="btn btn-primary">Guardar</button>
+                        <button type="button" id="btnLimpiar" class="btn btn-secondary">Limpiar</button>
+
+
+                    </form>
+                </div>
+
+                <!-- LISTA -->
+                <div class="col-8">
+                    <table id="tblPersonas" class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Marca</th>
+                                <th>Modelo</th>
+                                <th>Color </th>
+                                <th>Estilo</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <!-- 
+    <div class="caja">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, eveniet?</p>
+        <p>Doloremque repudiandae et praesentium, autem dignissimos atque laudantium quos. Ullam?</p>
+        <p>Quos praesentium corrupti ducimus ipsum animi esse eligendi corporis neque!</p>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, eveniet?</p>
+    <p>Doloremque repudiandae et praesentium, autem dignissimos atque laudantium quos. Ullam?</p>
+    -->
+    <br><br><br><br><br><br><br><br><br><br>
+    <script src="lab3.js"></script>
+</body>
+</html>
