@@ -6,7 +6,6 @@ The goal is to practice key concepts of the language and strengthen programming 
 ## 📌 Contents
 - **Exercise 1:** Variables and basic operators  
 - **Exercise 3:** Functions and variable scope  
-- **Exercise 4:** Arrays and objects  
 - **Exercise 5:** DOM manipulation  
 - **Exercise 6:** Events and callbacks  
 
